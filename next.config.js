@@ -6,6 +6,6 @@ const nextConfig = {
 module.exports = {
   env: {
     MONGO_URI:
-      "mongodb+srv://arudeu:Wkapdlzk12%23@cluster0.vsrnx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+      "",
   },
 };

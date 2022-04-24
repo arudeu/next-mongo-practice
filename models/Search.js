@@ -14,7 +14,7 @@ const SearchSchema = new mongoose.Schema({
   productDescription: {
     type: String,
     required: true,
-    maxlength: [500, "Name must be less than 50 characters"],
+    maxlength: [200, "Name must be less than 200 characters"],
   },
 });
 
